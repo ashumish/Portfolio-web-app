@@ -1,0 +1,36 @@
+.hire__btn {
+  background: #fff;
+  color: #0e1b31;
+}
+.hire__btn:hover a {
+  color: #0e1b31;
+  font-weight: 500;
+}
+.hire__btn a {
+  text-decoration: none;
+}
+.hero__title span {
+  color: #7865ff;
+}
+.hero__title {
+  font-weight: 600;
+}
+.w-100 {
+  /* margin-top: 85px; */
+  width: 350px;
+  height: 350px;
+  border-radius: 50px;
+  margin-left: auto;
+}
+.hero__section {
+  padding-top: 150px;
+}
+.here__content {
+  line-height: 30px;
+  font-weight: 300;
+}
+.the__string {
+  font-size: 22px;
+  font-weight: 600;
+  color: #7865ff;
+}

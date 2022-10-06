@@ -7,6 +7,10 @@
     left: 0;
     z-index: 1;
 }
+.logo h5{
+    font-size: 1.3rem;
+    color: #7865ff;
+}
 .nav__list{
     display: flex;
     align-items: center;
@@ -17,7 +21,38 @@
     transition: 0.3s;
     text-decoration: none;
     font-weight: 400;
+    cursor: pointer;
 }
 .nav__item a:hover{
     color: #7865ff;
 }
+.btn{
+    background: #7865ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 7px 25px;
+}
+.btn:hover{
+    background:  #7865ff;
+    color: #7855a7;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 7px 25px;
+}
+.mobile__menu i{
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.mobile__menu{
+    display: none;
+}
+/* .header__shrink{
+    background: #132347;
+    box-shadow: 2px 2px 4px -2px #7865ffbd;
+} */
