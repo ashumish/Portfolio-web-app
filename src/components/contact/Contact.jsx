@@ -4,7 +4,7 @@ import "./contact.css";
 import Form from "../form/Form";
 const Contact = () => {
   return (
-    <section>
+    <section id="contact">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">

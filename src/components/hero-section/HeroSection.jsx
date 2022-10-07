@@ -3,6 +3,7 @@ import Typical from "react-typical";
 import "./hero-section.css";
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../../assests/Images/hero__img.png";
+
 const HeroSection = () => {
   // const textRef = useRef();
   // useEffect(() => {
@@ -25,7 +26,7 @@ const HeroSection = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="here__content">
-              <p className="md-3">Welcome to my Word!</p>
+              <p className="md-3">Welcome to my World!</p>
               {/* <h5 className="md-4">Hii</h5> */}
               <h2 className="hero__title md-4">
                 I'M{" "}
@@ -64,14 +65,22 @@ const HeroSection = () => {
                 <button className="btn hire__btn">
                   <a href="#">Hire Me</a>
                 </button>
-                <button className="btn">Contact</button>
+                <a
+                  href="Ashutosh_Mishra_Resume.pdf"
+                  download="Ashutosh_Mishar_Resume.pdf"
+                >
+                  <button className="btn">
+                    Get Resume
+                  </button>
+                </a>
+                {/* <button className="btn">Get Resume</button> */}
               </div>
             </div>
           </Col>
           <Col lg="6" md="6">
-              <div className="hero__img">
-                <img src={heroImg} alt="" className="w-100" />
-              </div>
+            <div className="hero__img">
+              <img src={heroImg} alt="" className="w-100" />
+            </div>
           </Col>
         </Row>
       </Container>

@@ -20,7 +20,7 @@ const Experience = () => {
     },
   ];
   return (
-    <section>
+    <section id="experience">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
