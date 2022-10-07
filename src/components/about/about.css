@@ -27,14 +27,23 @@
   border-radius: 10px;
 }
 .about__content h2 {
-  margin: 15px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 .about__content p {
+  margin-left: -60px;
   line-height: 30px;
   font-weight: 300;
 }
+.social__links h6{
+  margin-left: -60px;
+ font-size: 20px;
+ font-weight: 600; 
+   color: #68e2f7;
+}
 .social__links span a i {
   color: #7865ff;
+  font-size: 30px;
 }
 .about__img {
   width: 250px;
@@ -45,5 +54,5 @@
 }
 .social__links span {
   margin-top: 10px;
-  margin-right: 20px;
+  margin-right: 40px;
 }

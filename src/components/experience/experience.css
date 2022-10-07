@@ -1,9 +1,9 @@
 .single__experience__container {
-  padding: 30px;
+  padding: 20px;
   background: #132347;
   border-radius: 10px;
 }
-/* .single__experience {
+.single__experience {
   position: relative;
   padding: 10px 30px;
   z-index: 79;
@@ -19,11 +19,25 @@
   color: #7865ff;
   z-index: 80;
 }
-.experience__icon {
-  position: absolute;
-  top: 10px;
-  left: -10px;
+.experience__icon i {
+  position: relative;
+  margin-left: -39px;
+  top: 20px;
   color: #7865ff;
   font-size: 1.2rem;
-  z-index: 80;
-} */
+}
+.experience__icon h6 {
+  font-size: 0.8rem;
+  opacity: 75%;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.experience__icon h5 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.experience__icon p {
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 0.9rem;
+}

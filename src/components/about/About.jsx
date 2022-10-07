@@ -53,9 +53,9 @@ const About = () => {
             {aboutFilter === "ABOUT" && (
               <div className="about__content__wrapper d-flex gap-5">
                 <div className="about__img">
-                  <img src={aboutImg} alt="" className="w-100"></img>
+                  {/* <img src={aboutImg} alt="" className="w-100"></img> */}
                 </div>
-                <div className="about__content w-75">
+                <div className="about__content wb-3">
                   <h2>I'M Ashutosh Mishra</h2>
                   <p>
                     {" "}
@@ -73,7 +73,7 @@ const About = () => {
                     most out of my knowledge and skills.
                   </p>
                   <div className="social__links">
-                    <h6 className="mb-3">Connect with me</h6>
+                    <h6 className="mb-3">Connect with me:-</h6>
                     <span className="social__icons">
                       <a href="https://github.com/ashumish">
                         <i class="ri-github-fill"></i>
