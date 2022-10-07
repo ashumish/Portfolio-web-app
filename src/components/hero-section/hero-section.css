@@ -34,3 +34,8 @@
   font-weight: 600;
   color: #7865ff;
 }
+.hero__img{
+  margin-left: 200px;
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,29 @@
+.single__experience__container {
+  padding: 30px;
+  background: #132347;
+  border-radius: 10px;
+}
+/* .single__experience {
+  position: relative;
+  padding: 10px 30px;
+  z-index: 79;
+}
+.single__experience::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  content: "";
+  background: #7865ff;
+  color: #7865ff;
+  z-index: 80;
+}
+.experience__icon {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  color: #7865ff;
+  font-size: 1.2rem;
+  z-index: 80;
+} */

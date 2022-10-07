@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
-import "./header.css"
+import "./header.css";
 const navLinks = [
   { dispaly: "Home", url: "/home" },
   { dispaly: "About", url: "/about" },
@@ -9,6 +9,32 @@ const navLinks = [
   { dispaly: "Contact", url: "/contact" },
 ];
 const Header = () => {
+  // const handleClick = (e)=>{
+  //   e.preventDefault();
+  //   const targetAttr =e.target.getAttribute('href')
+  //   const location =document.querySelector(targetAttr).offsetTop
+  //   window.scrollTo({
+  //     left:0,
+  //     top: location - 70,
+  //   })
+  // }
+  // const headerRef = useRef(null);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     if (
+  //       document.body.scrollTop > 80 ||
+  //       document.documentElement.scrollTop > 80
+  //     ) {
+  //       headerRef.current.add("header__shrink");
+  //     } else {
+  //       headerRef.current.remove("header__shrink");
+  //     }
+  //   });
+  //   return () => {
+  //     window.removeEventListener("scroll");
+  //   };
+  // }, []);
+
   return (
     <header className="header">
       <Container>

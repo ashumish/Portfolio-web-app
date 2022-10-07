@@ -37,6 +37,8 @@
   color: #7865ff;
 }
 .about__img {
+  width: 250px;
+  height: 250px;
   /* background: #7865ff; */
   border-radius: 10px;
   /* height: 192px; */
