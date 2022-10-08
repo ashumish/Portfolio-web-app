@@ -12,6 +12,9 @@
   border-bottom: 1px solid #7865ff;
   border-radius: 5px 5px 0px 0px;
 }
+.page__title{
+  margin-top: 15px;
+}
 .about__btn-active {
   width: 100%;
   height: 70px;

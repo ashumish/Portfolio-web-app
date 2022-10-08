@@ -6,6 +6,9 @@
     border-bottom: 1px solid #7865ff;
     transition: 0.3s;
 }
+.page__title{
+    margin-top: 15px;
+}
 .service__icon{
     color: #7865ff;
     font-size: 2.2rem;

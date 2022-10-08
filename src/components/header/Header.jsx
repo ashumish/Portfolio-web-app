@@ -2,11 +2,11 @@ import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
 const navLinks = [
-  { dispaly: "Home", url: "/home" },
-  { dispaly: "About", url: "/about" },
-  { dispaly: "Services", url: "/services" },
-  { dispaly: "Portfolio", url: "/portfolio" },
-  { dispaly: "Contact", url: "/contact" },
+  { dispaly: "Home", url: "#home" },
+  { dispaly: "About", url: "/#about" },
+  { dispaly: "Portfolio", url: "/#portfolio" },
+  { dispaly: "Services", url: "/#services" },
+  { dispaly: "Contact", url: "/#contact" },
 ];
 const Header = () => {
   // const handleClick = (e)=>{

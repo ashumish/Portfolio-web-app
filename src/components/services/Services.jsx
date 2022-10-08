@@ -39,7 +39,7 @@ const Services = () => {
       <Container>
         <Row>
           <Col lg="12" className="services__top mb-5">
-            <h6>Features</h6>
+            <h6 className="page__title">Features</h6>
             <h2>What services I provide</h2>
           </Col>
           {servicesData.map((item,index) => (

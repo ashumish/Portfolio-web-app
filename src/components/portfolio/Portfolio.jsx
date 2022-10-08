@@ -29,11 +29,11 @@ const protfolioData = [
 ];
 const Portfolio = () => {
   return (
-    <section>
+    <section id="portfolio">
       <Container>
         <Row>
           <Col lg="12" className="portfolio__top mb-5">
-            <h6>Explore my work and give a feedback</h6>
+            <h6 className="page__title">Explore my work and give a feedback</h6>
             <h2>Portfolio</h2>
           </Col>
 

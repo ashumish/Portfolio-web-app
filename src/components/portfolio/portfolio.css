@@ -7,6 +7,9 @@
     z-index: 90;
     cursor: pointer;
 }
+.page__title{
+    margin-top: 15px;
+}
 .portfolio__content{
     position:absolute;
     top: 0;

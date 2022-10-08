@@ -1,17 +1,17 @@
-import React,{useState} from 'react';
+import React, { useState } from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
 import aboutImg from "../../assests/Images/hero__img.png";
-import Education from './Education';
-import Skills from './Skills';
+import Education from "./Education";
+import Skills from "./Skills";
 const About = () => {
-    const[aboutFilter, setAboutFilter]=useState("ABOUT");
+  const [aboutFilter, setAboutFilter] = useState("ABOUT");
   return (
     <section id="about">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
-            <h2>About Me</h2>
+            <h2 className="page__title">About Me</h2>
           </Col>
           <Col lg="4" md="3">
             <div className="about__btns d-flex flex-column align-items-center">
@@ -105,6 +105,6 @@ const About = () => {
       </Container>
     </section>
   );
-}
+};
 
-export default About
+export default About;
