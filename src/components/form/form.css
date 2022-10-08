@@ -26,3 +26,13 @@
   outline: none;
   border-radius: 5px;
 }
+
+.submit__btn:hover{
+   background: #7865ff;
+  color: #7855a7;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 7px 25px;
+}

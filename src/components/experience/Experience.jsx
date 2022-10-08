@@ -5,17 +5,17 @@ const Experience = () => {
   const developmentExperience = [
     {
       year: "2021 - 2022",
-      title: "Frontend Developer",
+      title: "Frontend Developer & Devops Engineer",
       desc: " Frontend Developer and DevOps Engineer at NextQuorter · Full-time Sep 2021 - Present · 1 yr 2 mos Hyderabad,Telangana,India",
     },
     {
       year: "2021 - 2022",
-      title: "Frontend Developer",
+      title: "Frontend Developer & Devops Engineer",
       desc: " Frontend Developer and DevOps Engineer at NextQuorter · Full-time Sep 2021 - Present · 1 yr 2 mos Hyderabad,Telangana,India",
     },
     {
       year: "2021 - 2022",
-      title: "Frontend Developer",
+      title: "Frontend Developer & Devops Engineer",
       desc: " Frontend Developer and DevOps Engineer at NextQuorter · Full-time Sep 2021 - Present · 1 yr 2 mos Hyderabad,Telangana,India",
     },
   ];
