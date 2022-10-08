@@ -69,9 +69,7 @@ const HeroSection = () => {
                   href="Ashutosh_Mishra_Resume.pdf"
                   download="Ashutosh_Mishar_Resume.pdf"
                 >
-                  <button className="btn">
-                    Get Resume
-                  </button>
+                  <button className="btn">Get Resume</button>
                 </a>
                 {/* <button className="btn">Get Resume</button> */}
               </div>

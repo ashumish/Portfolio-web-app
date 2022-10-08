@@ -42,7 +42,7 @@ const Services = () => {
             <h6 className="page__title">Features</h6>
             <h2>What services I provide</h2>
           </Col>
-          {servicesData.map((item,index) => (
+          {servicesData.map((item, index) => (
             <Col lg="4" md="6" sm="6" key={index} className="mb-4">
               <div className="single__service">
                 <span className="service__icon">

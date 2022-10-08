@@ -1,22 +1,23 @@
-.table{
-    border: none;
-    border-collapse: collapse;
-    border: 1px solid #132347;
-    border-radius: 5px;
+.table {
+  border: none;
+  border-collapse: collapse;
+  border: 1px solid #132347;
+  border-radius: 5px;
 }
-th,td{
-    padding: 0.8rem 1rem;
-    font-size: 1rem;
+th,
+td {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
 }
-thead{
-    background: #7865ff;
-    color: #fff;
+thead {
+  background: #7865ff;
+  color: #fff;
 }
-td{
-    font-size: 0.8rem;
-    color: #fff;
-    font-weight: 500;
+td {
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 500;
 }
-tr:nth-child(even){
-    background: #102048;
+tr:nth-child(even) {
+  background: #102048;
 }

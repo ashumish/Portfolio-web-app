@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./footer.css";
 const Footer = () => {
   return (
-    <footer className='pb-4'>
+    <footer className="pb-4">
       <Container className="text-center footer">
         <p>
           {/* <i class="ri-copyright-line"></i> */}
@@ -12,6 +12,6 @@ const Footer = () => {
       </Container>
     </footer>
   );
-}
+};
 
 export default Footer;

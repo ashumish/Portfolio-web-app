@@ -36,9 +36,8 @@ const Portfolio = () => {
             <h6 className="page__title">Explore my work and give a feedback</h6>
             <h2>Portfolio</h2>
           </Col>
-
           {protfolioData.map((item, index) => (
-            <Col lg="4" md="6" sm="6" key={index}>
+            <Col lg="4" md="6" sm="6" key={index} className="mb-4">
               <div className="portfolio__card">
                 <div className="portfolio__img">
                   <img src={item.imgUrl} alt="" className="w-100"></img>

@@ -1,5 +1,5 @@
-import React from 'react'
-import "./education.css"
+import React from "react";
+import "./education.css";
 const Education = () => {
   return (
     <table className="table">
@@ -33,6 +33,6 @@ const Education = () => {
       </tbody>
     </table>
   );
-}
+};
 
-export default Education
+export default Education;
